@@ -24,13 +24,13 @@ android-async-http是基于Apache HttpClient专门用于android的异步http请�
 通过Maven将该库集成到项目中
 
 ```java
-Gradle文件中
+app/build.gradle文件中
 repositories {
   mavenCentral()
 }
 
 dependencies {
-  compile 'com.loopj.android:android-async-http:1.4.9'
+  implementation 'com.loopj.android:android-async-http:1.4.9'
 }
 ```
 
