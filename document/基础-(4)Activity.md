@@ -147,7 +147,7 @@
 
    ```java
    //[4]跳转到ResultActivity页面   用显示意图跳转
-   Intent intent = new Intent(this, ResultActiviyt.class);
+   Intent intent = new Intent(this, ResultActivity.class);
    //传递姓名
    intent.putExtra("name", name);
    //传递性别 
